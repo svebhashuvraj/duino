@@ -21,9 +21,9 @@ jobs:
      # The type of runner that the job will run on
          runs-on: ubuntu-latest
          strategy:
-         fail-fast: true
+         fail-fast: false
          matrix:
            runner: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
            steps:
-           - run: | 
+           -run: | 
 echo his is a trion
